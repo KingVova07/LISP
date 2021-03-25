@@ -8,7 +8,7 @@
     )
 )
 
-
+(print '(3 задача))
 (print (rep '(7 2 2 1 6 4) 'a 2))
 ;output: (7 A A 1 6 4) 
 
@@ -29,6 +29,7 @@
     )
 )
 
+(print '(4 задача))
 (print (rev (counter 7 () ) () ))
 ;output (1 2 3 4 5 6 7)        
 ;задача 4
@@ -44,6 +45,8 @@
         (t (compar (cdr lst) poslst neglst))
     )
 )
+
+(print '(8 задача))
 
 (print (compar '(1 -2 3 -4 5 -6) () ()))
 ;output ((5 3 1) (-6 -4 -2))        
@@ -69,6 +72,9 @@
     )
 )
        
+
+(print '(21 задача))
+
 (print (delet '(1 2 3 4 6 5 6) 6 '() ) ) 
 ;output (1 2 3 4 5 6) 
 
@@ -95,6 +101,7 @@
     )
 )   
 
+(print '(27 задача))
 (print ( rev (mixF '(1 2 3 4 5) '(a b c d e) () ) ()))
 ;output (1 A 2 B 3 C 4 D 5 E) 
 ;27 задача
