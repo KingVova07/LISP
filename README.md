@@ -1,5 +1,5 @@
 # LISP
-
+```lisp
 (defun rep (list x y)
     (cond 
         ((null list) nil)
@@ -86,3 +86,4 @@
 (print ( rev (mixF '(1 2 3 4 5) '(a b c d e) () ) ()))
 ;output (1 A 2 B 3 C 4 D 5 E) 
 ;27 задача
+```
